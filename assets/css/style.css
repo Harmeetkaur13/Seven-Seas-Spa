@@ -56,3 +56,17 @@ section {
 .services-section .card-text {
     color: var(--color);
 }
+
+/* footer */
+footer {
+    background-color: var(--color);
+    color: var(--background-color-hex);
+}
+
+footer a {
+    color: var(--background-color-hex);
+}
+
+footer a:hover {
+    color: #fbfaf8;
+}
