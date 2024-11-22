@@ -72,3 +72,15 @@ footer a {
 footer a:hover {
     color: #fbfaf8;
 }
+
+/* contact submit btn */
+.SUBMIT {
+    background-color: var(--color);
+    color: var(--background-color-hex);
+    cursor: pointer;
+}
+
+.SUBMIT:hover {
+    background-color: #855c3a;
+    /* lighter shade of var(--color) */
+}
