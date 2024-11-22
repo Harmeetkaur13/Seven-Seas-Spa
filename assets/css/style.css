@@ -26,12 +26,14 @@ section {
 }
 
 .hero-section {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/images/hero-bg.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/hero-bg.jpg');
     background-size: cover;
     background-position: center;
-    background-color: var(--background-color-hex);
-    color: var(--background-color-hex);
     padding: 100px 0;
+}
+
+.hero-section .container {
+    color: var(--background-color-hex);
 }
 
 .hero-section .btn-light {
