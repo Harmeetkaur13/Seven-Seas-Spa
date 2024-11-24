@@ -36,10 +36,18 @@ section {
     color: var(--background-color-hex);
 }
 
+.btn-light {
+    border-color: var(--color);
+    color: var(--background-color-hex);
+    background-color: var(--color);
+    ;
+}
+
 .hero-section .btn-light {
     border-color: var(--color);
     color: var(--color);
 }
+
 
 /* services */
 .services-section {
@@ -83,4 +91,8 @@ footer a:hover {
 .SUBMIT:hover {
     background-color: #855c3a;
     /* lighter shade of var(--color) */
+}
+
+.table_time {
+    background-color: var(--background-color-hex);
 }
