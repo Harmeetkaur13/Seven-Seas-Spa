@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Page - Seven Seas Spa</title>
+    <title>Seven Seas Spa</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -32,13 +32,13 @@
                         <a class="nav-link" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
+                        <a class="nav-link active" href="about.html">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="services.html">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="contact.html">Contact</a>
+                        <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -47,55 +47,59 @@
 
     <!-- Hero Section -->
     <section class="hero-section text-center bg-light py-5">
-        <div class="container text-center py-5">
-            <h1 class="display-4">Get in touch</h1>
-            <p class="lead">We'd love to hear from you. Please fill out the form below to get in touch with us.</p>
+        <div class="container text-center">
+            <h1 class="display-4">About Us</h1>
+            <p class="lead">Improving health and wellbeing through wellness services</p>
         </div>
     </section>
 
+    <section class="container my-5">
+        <h2 class="display-6">Who We Are</h2>
+        <p class="lead">At Seven Seas Spa, our mission is to enhance your overall wellbeing through our comprehensive
+            range of services.</p>
 
-    <!-- Main Content Section -->
-    <main>
-        <section class="contact-section py-5">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-md-8">
-                        <div class="card shadow-sm">
-                            <div class="card-body">
-                                <h2 class="card-title text-center mb-4">Contact Us</h2>
-                                <p class="lead">We're here to help and answer any question you might have. We look
-                                    forward to hearing from you</p>
-                                <form action="thankyou.html" class="contactus">
-                                    <div class="mb-3">
-                                        <label for="name" class="form-label">Name</label>
-                                        <input type="text" class="form-control" id="name" placeholder="Your Name"
-                                            required>
-                                    </div>
-                                    <div class="mb-3">
-                                        <label for="email" class="form-label">Email</label>
-                                        <input type="email" class="form-control" id="email" placeholder="Your Email"
-                                            required>
-                                    </div>
-                                    <div class="mb-3">
-                                        <label for="subject" class="form-label">Subject</label>
-                                        <input type="text" class="form-control" id="subject" placeholder="Subject"
-                                            required>
-                                    </div>
-                                    <div class="mb-3">
-                                        <label for="message" class="form-label">Message</label>
-                                        <textarea class="form-control" id="message" rows="5" placeholder="Your Message"
-                                            required></textarea>
-                                    </div>
-                                    <div class="d-grid">
-                                        <button type="submit" class="btn btn-light">Send Message</button>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <h3 class="display-7 mt-4">Our Mission</h3>
+        <p>Our mission is to provide a sanctuary where you can relax, rejuvenate, and restore your mind, body, and
+            spirit. We are dedicated to offering the highest quality services to help you achieve optimal health and
+            wellness.</p>
+
+        <h3 class="display-7 mt-4">Our Values</h3>
+        <ul>
+            <li><strong>Excellence:</strong> We strive for excellence in everything we do, from our services to our
+                customer care.</li>
+            <li><strong>Integrity:</strong> We conduct our business with the highest level of integrity and honesty.
+            </li>
+            <li><strong>Compassion:</strong> We are committed to providing compassionate care and support to all our
+                clients.</li>
+            <li><strong>Innovation:</strong> We continuously seek innovative ways to improve our services and enhance
+                your experience.</li>
+        </ul>
+
+        <h3 class="display-7 mt-4 mb-3">Our Team</h3>
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <img src="./assets/images/John.png" class="rounded-circle mb-3" alt="Steve" width="150" height="150">
+                <h5 class="display-8">John</h5>
+                <p>Founder & CEO</p>
+                <p>John has over 20 years of experience in the wellness industry. His vision and leadership have been
+                    instrumental in making Seven Seas Spa a sanctuary for relaxation and rejuvenation.</p>
             </div>
-        </section>
+            <div class="col-md-4 text-center">
+                <img src="./assets/images/Erica.webp" class="rounded-circle mb-3" alt="Cho" width="150" height="150">
+                <h5 class="display-8">Erica</h5>
+                <p>Wellness Director</p>
+                <p>Erica is a certified wellness coach with a passion for holistic health. She oversees all wellness
+                    programs and ensures that each client receives personalized care and attention.</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="./assets/images/Emily.png" class="rounded-circle mb-3" alt="Emily" width="150" height="150">
+                <h5 class="display-8">Emily</h5>
+                <p>Head of Customer Relations</p>
+                <p>Emily has a background in customer service and hospitality. She is dedicated to making sure every
+                    client has a positive and memorable experience at Seven Seas Spa.</p>
+            </div>
+        </div>
+    </section>
     </main>
     <!-- Footer -->
     <footer class="py-3">
@@ -118,7 +122,7 @@
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
     </script>
 </body>
 
