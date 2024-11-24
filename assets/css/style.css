@@ -5,17 +5,15 @@
 
 html,
 body {
-    background-color: var(--background-color-hex);
-    color: var(--color);
     height: 100%;
-    display: flex;
-    flex-direction: column;
-    margin: 0%;
 }
 
 body {
+    background-color: var(--background-color-hex);
+    color: var(--color);
     display: flex;
     flex-direction: column;
+    margin: 0%;
 }
 
 main {
@@ -60,6 +58,7 @@ section {
 .hero-section .btn-light {
     border-color: var(--color);
     color: var(--color);
+    background-color: var(--background-color-hex);
 }
 
 
