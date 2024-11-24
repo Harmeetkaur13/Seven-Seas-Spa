@@ -3,9 +3,23 @@
     --color: #653817;
 }
 
+html,
 body {
     background-color: var(--background-color-hex);
     color: var(--color);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
 }
 
 .navbar {
@@ -26,7 +40,7 @@ section {
 }
 
 .hero-section {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/hero-bg.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/hero.png');
     background-size: cover;
     background-position: center;
     padding: 100px 0;
@@ -79,6 +93,12 @@ footer a {
 
 footer a:hover {
     color: #fbfaf8;
+}
+
+.footer-fixed {
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
 
 /* contact submit btn */
